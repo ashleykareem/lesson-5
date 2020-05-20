@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: auto;
+    font-family: 'raleway',
+        sans-serif;
+}
+
+nav {
+    background-color: red;
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    margin-top: 0;
+    text-align: right;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.welcome {
+    background-color: #30323D;
+    display: inline-block;
+    margin-bottom: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.welcome-text {
+    color: red;
+    font-weight: 200;
+    margin-top: .5rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.projects {
+    background-color:#696969;
+    display: inline-block;
+    /* height: 100vh; */
+    height: 90rem;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom:3rem;
+
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+    display: inline-block;
+    margin-top: 2rem;
+    margin: 2rem;
+    padding: 0;
+}
+
+.project-head {
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 8rem auto 1rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+img {
+    max-width: 380px;
+    max-height: 380px;
+    float: left;
+    margin:0;
+    padding:1rem 0rem 1.5rem 0rem;
+}
+
+.project-header {
+    display: block;
+    color: whitesmoke;
+    font-size: 20px;
+    padding:0;
+    text-align: center;
+    padding-bottom:1rem;
+    background-color:#30323D;
+}
+
+.button {
+text-align: center;
+}
+
+button {
+    border:none;
+    background-color:#30323D;
+    color:white;
+    font-size:40px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding:.5rem;
+    font-size:20px;
+}
+
+.contact {
+    display: inline-block;
+    background-color: #30323D;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-head {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.contact-p {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 25px;
+    text-decoration: italic;
+}
+
+.connect {
+    text-align: center;
+}
+
+.fb,
+.gh,
+.tw,
+.email,
+.call {
+    display: inline-block;
+    padding: 1.5rem;
+    font-size: 30px;
+}
+
+i {
+    color: white;
+
+
+}
+
+
+hr {
+    color: red;
+    border: solid red 1px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #30323D;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-text {
+    display: inline;
+    padding-left: 8rem;
+    font-size: 20px;
+
+}
